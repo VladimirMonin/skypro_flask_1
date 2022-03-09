@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def page_index():
-    return "Главная страничка"
+    return "Oh may!"
 
-app.run()
+app.run(host='127.0.0.2', port=80)
